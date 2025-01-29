@@ -1,0 +1,13 @@
+.page {
+	a {
+		@apply hover:text-green-500 duration-300 ease-out;
+	}
+
+	ul {
+		a {
+			@apply text-blue-500;
+
+			text-decoration: underline;
+		}
+	}
+}
