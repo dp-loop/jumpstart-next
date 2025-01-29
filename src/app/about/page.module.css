@@ -1,13 +1,9 @@
-.page {
-	a {
-		@apply hover:text-green-500 duration-300 ease-out;
-	}
+.page ul a {
+	@apply text-blue-500;
 
-	ul {
-		a {
-			@apply text-blue-500;
+	text-decoration: underline;
+}
 
-			text-decoration: underline;
-		}
-	}
+.page a {
+	@apply hover:text-green-500 duration-300 ease-out;
 }
